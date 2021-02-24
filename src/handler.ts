@@ -10,9 +10,16 @@ export async function handleRequest(event: FetchEvent): Promise<Response> {
   if (Object.keys(readingList2021).includes(date)) {
     const passages = await getPassages(date, event)
 
-    return new Response(generateHTML(passages[0], passages[1]), {
-      headers: { 'content-type': 'text/html;charset=UTF-8' },
-    })
+    return new Response(
+      generateHTML({
+        firstPassage: passages[0],
+        secondPassage: passages[1],
+        date,
+      }),
+      {
+        headers: { 'content-type': 'text/html;charset=UTF-8' },
+      },
+    )
   }
 
   return new Response('Date not found in list', { status: 404 })
@@ -54,8 +61,16 @@ const getPassageHTML = async (passage: string, event: FetchEvent) => {
   return response
 }
 
-const generateHTML = (firstPassage: string, secondPassage: string) => {
-  const today = new Date()
+const generateHTML = ({
+  firstPassage,
+  secondPassage,
+  date,
+}: {
+  firstPassage: string
+  secondPassage: string
+  date: string
+}) => {
+  const today = new Date(date)
   const dateString = today.toLocaleDateString(undefined, {
     weekday: 'long',
     year: 'numeric',
