@@ -1,0 +1,10 @@
+name = "axis-reading-plan"
+type = "webpack"
+account_id = "1ae24f064d5a7bfb3070959cf0181225"
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "webpack.config.js"
+kv_namespaces = [
+	 { binding = "READING_PLAN_KV", id = "1621a031d1a542b990cfe6113c956ced" }
+]
