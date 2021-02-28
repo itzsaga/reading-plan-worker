@@ -6,5 +6,5 @@ route = ""
 zone_id = ""
 webpack_config = "webpack.config.js"
 kv_namespaces = [
-	 { binding = "READING_PLAN_KV", id = "1621a031d1a542b990cfe6113c956ced" }
+	 { binding = "READING_PLAN_KV", id = "1621a031d1a542b990cfe6113c956ced", preview_id = "1621a031d1a542b990cfe6113c956ced" }
 ]

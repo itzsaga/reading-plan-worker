@@ -1,14 +1,20 @@
-import { readingList2021 } from './2021List'
 declare var ESV_API_KEY: string
 declare var READING_PLAN_KV: KVNamespace
+
+interface ReadingList {
+  OT: string
+  NT: string
+}
 
 export async function handleRequest(event: FetchEvent): Promise<Response> {
   const dateObj = new Date()
   const { searchParams } = new URL(event.request.url)
   const date = searchParams.get('date') || dateObj.toISOString().split('T')[0]
 
-  if (Object.keys(readingList2021).includes(date)) {
-    const passages = await getPassages(date, event)
+  const kvValue: ReadingList | null = await READING_PLAN_KV.get(date, 'json')
+
+  if (kvValue) {
+    const passages = await getPassages(kvValue, event)
 
     return new Response(
       generateHTML({
@@ -25,8 +31,7 @@ export async function handleRequest(event: FetchEvent): Promise<Response> {
   return new Response('Date not found in list', { status: 404 })
 }
 
-const getPassages = async (date: string, event: FetchEvent) => {
-  const passages = readingList2021[date]
+const getPassages = async (passages: ReadingList, event: FetchEvent) => {
   const passage1 = passages.OT.replace(' ', '+')
   const passage2 = passages.NT.replace(' ', '+')
   const responses = await Promise.all([
