@@ -1,0 +1,152 @@
+[
+    {
+        "key": "2021-04-01",
+        "value": "{\"OT\":\"Judges 6-7\",\"NT\":\"Luke 8:1-21\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-02",
+        "value": "{\"OT\":\"Judges 8-9\",\"NT\":\"Luke 8:22-56\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-03",
+        "value": "{\"OT\":\"Judges 10-11\",\"NT\":\"Luke 9:1-36\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-04",
+        "value": "{\"OT\":\"Judges 12-14\",\"NT\":\"Luke 9:37-62\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-05",
+        "value": "{\"OT\":\"Judges 15-17\",\"NT\":\"Luke 10:1-24\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-06",
+        "value": "{\"OT\":\"Judges 18-19\",\"NT\":\"Luke 10:25-42\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-07",
+        "value": "{\"OT\":\"Judges 20-21\",\"NT\":\"Luke 11:1-28\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-08",
+        "value": "{\"OT\":\"Ruth 1-4\",\"NT\":\"Luke 11:29-54\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-09",
+        "value": "{\"OT\":\"1 Samuel 1-3\",\"NT\":\"Luke 12:1-34\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-10",
+        "value": "{\"OT\":\"1 Samuel 4-6\",\"NT\":\"Luke 12:35-59\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-11",
+        "value": "{\"OT\":\"1 Samuel 7-9\",\"NT\":\"Luke 13:1-21\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-12",
+        "value": "{\"OT\":\"1 Samuel 10-12\",\"NT\":\"Luke 13:22-35\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-13",
+        "value": "{\"OT\":\"1 Samuel 13-14\",\"NT\":\"Luke 14:1-24\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-14",
+        "value": "{\"OT\":\"1 Samuel 15-16\",\"NT\":\"Luke 14:25-35\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-15",
+        "value": "{\"OT\":\"1 Samuel 17-18\",\"NT\":\"Luke 15:1-10\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-16",
+        "value": "{\"OT\":\"1 Samuel 19-21\",\"NT\":\"Luke 15:11-32\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-17",
+        "value": "{\"OT\":\"1 Samuel 22-24\",\"NT\":\"Luke 16:1-18\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-18",
+        "value": "{\"OT\":\"1 Samuel 25-26\",\"NT\":\"Luke 16:19-31\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-19",
+        "value": "{\"OT\":\"1 Samuel 27-29\",\"NT\":\"Luke 17:1-19\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-20",
+        "value": "{\"OT\":\"1 Samuel 30-31\",\"NT\":\"Luke 17:20-37\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-21",
+        "value": "{\"OT\":\"2 Samuel 1-3\",\"NT\":\"Luke 18:1-17\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-22",
+        "value": "{\"OT\":\"2 Samuel 4-6\",\"NT\":\"Luke 18:18-43\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-23",
+        "value": "{\"OT\":\"2 Samuel 7-9\",\"NT\":\"Luke 19:1-28\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-24",
+        "value": "{\"OT\":\"2 Samuel 10-12\",\"NT\":\"Luke 19:29-48\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-25",
+        "value": "{\"OT\":\"2 Samuel 13-14\",\"NT\":\"Luke 20:1-26\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-26",
+        "value": "{\"OT\":\"2 Samuel 15-16\",\"NT\":\"Luke 20:27-47\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-27",
+        "value": "{\"OT\":\"2 Samuel 17-18\",\"NT\":\"Luke 21:1-19\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-28",
+        "value": "{\"OT\":\"2 Samuel 19-20\",\"NT\":\"Luke 21:20-38\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-29",
+        "value": "{\"OT\":\"2 Samuel 21-22\",\"NT\":\"Luke 22:1-30\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2021-04-30",
+        "value": "{\"OT\":\"2 Samuel 23-24\",\"NT\":\"Luke 22:31-53\"}",
+        "expiration_ttl": 31557600
+    }
+]
