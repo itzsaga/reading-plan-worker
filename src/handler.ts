@@ -7,7 +7,10 @@ interface ReadingList {
 }
 
 export async function handleRequest(event: FetchEvent): Promise<Response> {
-  const dateObj = new Date()
+  const centralTimeDate = new Date().toLocaleString("en-US", {
+    timeZone: "America/Chicago"
+  })
+  const dateObj = new Date(centralTimeDate)
   const { searchParams } = new URL(event.request.url)
   const date = searchParams.get('date') || dateObj.toISOString().split('T')[0]
 
