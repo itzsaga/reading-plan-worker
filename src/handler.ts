@@ -86,18 +86,28 @@ const generateHTML = ({
     day: 'numeric',
   })
 
-  return `<!DOCTYPE html>
-  <head>
-    <style type='text/css'>
-      body {
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        padding: 0 30px
-      }
-    </style>
-  </head>
-  <body>
-    <h1 style="text-align:center;">Readings for ${dateString}</h1>
-    ${firstPassage}
-    ${secondPassage}
-  </body>`
+  return `
+    <!DOCTYPE html>
+    <html lang='en'>
+      <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport'
+          content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+        <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+        <meta name='description' content='Daily Bible readings from The Axis Church in Nashville, TN.'>
+        <title>Readings for ${dateString}</title>
+        <style>
+          body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            padding: 0 30px
+          }
+        </style>
+      </head>
+      <body>
+        <h1 style='text-align:center;'>Readings for ${dateString}</h1>
+        ${firstPassage}
+        ${secondPassage}
+      </body>
+    </html>
+  `
 }
