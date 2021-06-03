@@ -99,7 +99,9 @@ const generateHTML = ({
         <style>
           body {
             font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-            padding: 0 30px
+            margin: 30px auto;
+            max-width: 750px;
+            padding: 0 30px;
           }
         </style>
       </head>
