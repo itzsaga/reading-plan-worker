@@ -1,37 +1,15 @@
-# ʕ •́؈•̀) `workers-typescript-template`
+# The Axis Church Reading Plan Worker
 
-A batteries included template for kick starting a TypeScript Cloudflare worker project.
+While attempting to keep up with the daily reading I frequently found myself without the reading cards. Even though I can download them digitally from [here](https://theaxischurch.org/download/2021-bible-reading-cards/) being a developer I wanted to try out something different. This worker is the results.
 
-## 🔋 Getting Started
+## Features
 
-This template is meant to be used with [Wrangler](https://github.com/cloudflare/wrangler). If you are not already familiar with the tool, we recommend that you install the tool and configure it to work with your [Cloudflare account](https://dash.cloudflare.com). Documentation can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler/).
+- The reading info is uploaded using the [wrangler cli kv:bulk](https://developers.cloudflare.com/workers/cli-wrangler/commands#kvbulk) functionality.
+  - Already uploaded files can be found in the [/kv_files/uploaded/](./kv_files/uploaded/) directory.
+- Defaults to reading from the KV store todays date values.
+- Accepts a query parameter to load readings from other days e.g. `?date=2021-09-01`.
+- Queries the text from the [ESV API](https://api.esv.org/) and cahces the response to ensure rate limits are note exceeded and response times stay super fast.
 
-To generate using Wrangler, run this command:
+## TODO
 
-```bash
-wrangler generate my-ts-project https://github.com/EverlastingBugstopper/worker-typescript-template
-```
-
-### 👩 💻 Developing
-
-[`src/index.js`](./src/index.ts) calls the request handler in [`src/handler.ts`](./src/handler.ts), and will return the [request method](https://developer.mozilla.org/en-US/docs/Web/API/Request/method) for the given request.
-
-### 🧪 Testing
-
-This template comes with mocha tests which simply test that the request handler can handle each request method. `npm test` will run your tests.
-
-### ✏️ Formatting
-
-This template uses [`prettier`](https://prettier.io/) to format the project. To invoke, run `npm run format`.
-
-### 👀 Previewing and Publishing
-
-For information on how to preview and publish your worker, please see the [Wrangler docs](https://developers.cloudflare.com/workers/tooling/wrangler/commands/#publish).
-
-## 🤢 Issues
-
-If you run into issues with this specific project, please feel free to file an issue [here](https://github.com/cloudflare/workers-typescript-template/issues). If the problem is with Wrangler, please file an issue [here](https://github.com/cloudflare/wrangler/issues).
-
-## ⚠️ Caveats
-
-The `service-worker-mock` used by the tests is not a perfect representation of the Cloudflare Workers runtime. It is a general approximation. We recommend that you test end to end with `wrangler dev` in addition to a [staging environment](https://developers.cloudflare.com/workers/tooling/wrangler/configuration/environments/) to test things before deploying.
+- Add forward and back buttons to each page for easier navigation if playing catch up or wanting to read ahead
