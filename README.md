@@ -12,4 +12,6 @@ While attempting to keep up with the daily reading I frequently found myself wit
 
 ## TODO
 
-- Add forward and back buttons to each page for easier navigation if playing catch up or wanting to read ahead
+- Add forward and back buttons to each page for easier navigation if playing catch up or wanting to read ahead.
+- Wire up CICD to automatically publish updates to the worker on merge to `main`.
+- Wire up CICD to automatically bulk upload new files from a `/kv_files/to_upload` directory then move then to `/kv_files/uploaded` on merge to `main` to facilitate anyone writing those files and opening a PR to get them added.
