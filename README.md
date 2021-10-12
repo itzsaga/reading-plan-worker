@@ -1,5 +1,7 @@
 # The Axis Church Reading Plan Worker
 
+[![Deploy](https://github.com/itzsaga/reading-plan-worker/actions/workflows/publish-worker.yml/badge.svg)](https://github.com/itzsaga/reading-plan-worker/actions/workflows/publish-worker.yml)
+
 While attempting to keep up with the daily reading I frequently found myself without the reading cards. Even though I can download them digitally from [here](https://theaxischurch.org/download/2021-bible-reading-cards/) being a developer I wanted to try out something different. This worker is the results.
 
 ## Features
