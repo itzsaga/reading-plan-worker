@@ -1,0 +1,157 @@
+[
+  {
+    "key": "2022-10-01",
+    "value": "{\"OT\":\"Isaiah 22-23\",\"NT\":\"Ephesians 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-02",
+    "value": "{\"OT\":\"Isaiah 24-26\",\"NT\":\"Ephesians 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-03",
+    "value": "{\"OT\":\"Isaiah 27-28\",\"NT\":\"Ephesians 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-04",
+    "value": "{\"OT\":\"Isaiah 29-30\",\"NT\":\"Ephesians 6\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-05",
+    "value": "{\"OT\":\"Isaiah 31-33\",\"NT\":\"Philippians 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-06",
+    "value": "{\"OT\":\"Isaiah 34-36\",\"NT\":\"Philippians 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-07",
+    "value": "{\"OT\":\"Isaiah 37-38\",\"NT\":\"Philippians 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-08",
+    "value": "{\"OT\":\"Isaiah 39-40\",\"NT\":\"Philippians 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-09",
+    "value": "{\"OT\":\"Isaiah 41-42\",\"NT\":\"Colossians 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-10",
+    "value": "{\"OT\":\"Isaiah 43-44\",\"NT\":\"Colossians 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-11",
+    "value": "{\"OT\":\"Isaiah 45-47\",\"NT\":\"Colossians 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-12",
+    "value": "{\"OT\":\"Isaiah 48-49\",\"NT\":\"Colossians 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-13",
+    "value": "{\"OT\":\"Isaiah 50-52\",\"NT\":\"1 Thessalonians 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-14",
+    "value": "{\"OT\":\"Isaiah 53-55\",\"NT\":\"1 Thessalonians 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-15",
+    "value": "{\"OT\":\"Isaiah 56-58\",\"NT\":\"1 Thessalonians 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-16",
+    "value": "{\"OT\":\"Isaiah 59-61\",\"NT\":\"1 Thessalonians 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-17",
+    "value": "{\"OT\":\"Isaiah 62-64\",\"NT\":\"1 Thessalonians 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-18",
+    "value": "{\"OT\":\"Isaiah 65-66\",\"NT\":\"2 Thessalonians 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-19",
+    "value": "{\"OT\":\"Jeremiah 1-2\",\"NT\":\"2 Thessalonians 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-20",
+    "value": "{\"OT\":\"Jeremiah 3-4\",\"NT\":\"2 Thessalonians 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-21",
+    "value": "{\"OT\":\"Jeremiah 5-6\",\"NT\":\"1 Timothy 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-22",
+    "value": "{\"OT\":\"Jeremiah 7-8\",\"NT\":\"1 Timothy 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-23",
+    "value": "{\"OT\":\"Jeremiah 9-10\",\"NT\":\"1 Timothy 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-24",
+    "value": "{\"OT\":\"Jeremiah 11-13\",\"NT\":\"1 Timothy 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-25",
+    "value": "{\"OT\":\"Jeremiah 14-16\",\"NT\":\"1 Timothy 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-26",
+    "value": "{\"OT\":\"Jeremiah 17-19\",\"NT\":\"1 Timothy 6\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-27",
+    "value": "{\"OT\":\"Jeremiah 20-22\",\"NT\":\"2 Timothy 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-28",
+    "value": "{\"OT\":\"Jeremiah 23-24\",\"NT\":\"2 Timothy 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-29",
+    "value": "{\"OT\":\"Jeremiah 25-26\",\"NT\":\"2 Timothy 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-30",
+    "value": "{\"OT\":\"Jeremiah 27-28\",\"NT\":\"2 Timothy 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-10-31",
+    "value": "{\"OT\":\"Jeremiah 29-30\",\"NT\":\"Titus 1\"}",
+    "expiration_ttl": 31557600
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "key": "2022-08-01",
+    "value": "{\"OT\":\"Psalm 65-67\",\"NT\":\"Romans 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-02",
+    "value": "{\"OT\":\"Psalm 68-69\",\"NT\":\"Romans 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-03",
+    "value": "{\"OT\":\"Psalm 70-72\",\"NT\":\"Romans 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-04",
+    "value": "{\"OT\":\"Psalm 73-74\",\"NT\":\"Romans 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-05",
+    "value": "{\"OT\":\"Psalm 75-77\",\"NT\":\"Romans 6\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-06",
+    "value": "{\"OT\":\"Psalm 78\",\"NT\":\"Romans 7\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-07",
+    "value": "{\"OT\":\"Psalm 79-81\",\"NT\":\"Romans 8:1-18\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-08",
+    "value": "{\"OT\":\"Psalm 82-84\",\"NT\":\"Romans 8:19-39\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-09",
+    "value": "{\"OT\":\"Psalm 85-87\",\"NT\":\"Romans 9\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-10",
+    "value": "{\"OT\":\"Psalm 88-89\",\"NT\":\"Romans 10\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-11",
+    "value": "{\"OT\":\"Psalm 90-92\",\"NT\":\"Romans 11:1-21\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-12",
+    "value": "{\"OT\":\"Psalm 93-95\",\"NT\":\"Romans 11:22-36\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-13",
+    "value": "{\"OT\":\"Psalm 96-98\",\"NT\":\"Romans 12\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-14",
+    "value": "{\"OT\":\"Psalm 99-102\",\"NT\":\"Romans 13\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-15",
+    "value": "{\"OT\":\"Psalm 103-104\",\"NT\":\"Romans 14\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-16",
+    "value": "{\"OT\":\"Psalm 105-106\",\"NT\":\"Romans 15:1-20\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-17",
+    "value": "{\"OT\":\"Psalm 107-108\",\"NT\":\"Romans 15:21-33\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-18",
+    "value": "{\"OT\":\"Psalm 109-111\",\"NT\":\"Romans 16\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-19",
+    "value": "{\"OT\":\"Psalm 112-115\",\"NT\":\"1 Corinthians 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-20",
+    "value": "{\"OT\":\"Psalm 116-118\",\"NT\":\"1 Corinthians 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-21",
+    "value": "{\"OT\":\"Psalm 119:1-48\",\"NT\":\"1 Corinthians 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-22",
+    "value": "{\"OT\":\"Psalm 119:49-104\",\"NT\":\"1 Corinthians 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-23",
+    "value": "{\"OT\":\"Psalm 119:105-175\",\"NT\":\"1 Corinthians 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-24",
+    "value": "{\"OT\":\"Psalm 120-123\",\"NT\":\"1 Corinthians 6\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-25",
+    "value": "{\"OT\":\"Psalm 124-127\",\"NT\":\"1 Corinthians 7:1-24\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-26",
+    "value": "{\"OT\":\"Psalm 128-131\",\"NT\":\"1 Corinthians 7:25-40\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-27",
+    "value": "{\"OT\":\"Psalm 132-135\",\"NT\":\"1 Corinthians 8\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-28",
+    "value": "{\"OT\":\"Psalm 136-138\",\"NT\":\"1 Corinthians 9\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-29",
+    "value": "{\"OT\":\"Psalm 139-141\",\"NT\":\"1 Corinthians 10:1-13\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-30",
+    "value": "{\"OT\":\"Psalm 142-144\",\"NT\":\"1 Corinthians 10:14-33\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-08-31",
+    "value": "{\"OT\":\"Psalm 145-147\",\"NT\":\"1 Corinthians 11:1-15\"}",
+    "expiration_ttl": 31557600
+  }
+]

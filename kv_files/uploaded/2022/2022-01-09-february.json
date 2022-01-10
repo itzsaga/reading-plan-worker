@@ -1,0 +1,142 @@
+[
+    {
+        "key": "2022-02-01",
+        "value": "{\"OT\":\"Exodus 27-28\",\"NT\":\"Matthew 21:23-46\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-02",
+        "value": "{\"OT\":\"Exodus 29-30\",\"NT\":\"Matthew 22:1-22\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-03",
+        "value": "{\"OT\":\"Exodus 31-33\",\"NT\":\"Matthew 22:23-46\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-04",
+        "value": "{\"OT\":\"Exodus 34-36\",\"NT\":\"Matthew 23:1-22\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-05",
+        "value": "{\"OT\":\"Exodus 37-38\",\"NT\":\"Matthew 23:23-39\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-06",
+        "value": "{\"OT\":\"Exodus 39-40\",\"NT\":\"Matthew 24:1-22\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-07",
+        "value": "{\"OT\":\"Leviticus 1-3\",\"NT\":\"Matthew 24:23-51\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-08",
+        "value": "{\"OT\":\"Leviticus 4-6\",\"NT\":\"Matthew 25:1-30\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-09",
+        "value": "{\"OT\":\"Leviticus 7-9\",\"NT\":\"Matthew 25:31-46\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-10",
+        "value": "{\"OT\":\"Leviticus 10-12\",\"NT\":\"Matthew 26:1-19\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-11",
+        "value": "{\"OT\":\"Leviticus 13\",\"NT\":\"Matthew 26:20-54\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-12",
+        "value": "{\"OT\":\"Leviticus 14\",\"NT\":\"Matthew 26:55-75\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-13",
+        "value": "{\"OT\":\"Leviticus 15-17\",\"NT\":\"Matthew 27:1-31\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-14",
+        "value": "{\"OT\":\"Leviticus 18-19\",\"NT\":\"Matthew 27:32-66\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-15",
+        "value": "{\"OT\":\"Leviticus 20-21\",\"NT\":\"Matthew 28\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-16",
+        "value": "{\"OT\":\"Leviticus 22-23\",\"NT\":\"Mark 1:1-22\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-17",
+        "value": "{\"OT\":\"Leviticus 24-25\",\"NT\":\"Mark 1:23-45\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-18",
+        "value": "{\"OT\":\"Leviticus 26-27\",\"NT\":\"Mark 2\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-19",
+        "value": "{\"OT\":\"Numbers 1-2\",\"NT\":\"Mark 3:1-21\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-20",
+        "value": "{\"OT\":\"Numbers 3-4\",\"NT\":\"Mark 3:22-35\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-21",
+        "value": "{\"OT\":\"Numbers 5-6\",\"NT\":\"Mark 4:1-20\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-22",
+        "value": "{\"OT\":\"Numbers 7\",\"NT\":\"Mark 4:21-41\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-23",
+        "value": "{\"OT\":\"Numbers 8-10\",\"NT\":\"Mark 5:1-20\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-24",
+        "value": "{\"OT\":\"Numbers 11-13\",\"NT\":\"Mark 5:21-43\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-25",
+        "value": "{\"OT\":\"Numbers 14-15\",\"NT\":\"Mark 6:1-32\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-26",
+        "value": "{\"OT\":\"Numbers 16-17\",\"NT\":\"Mark 6:33-56\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-27",
+        "value": "{\"OT\":\"Numbers 18-20\",\"NT\":\"Mark 7:1-13\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-02-28",
+        "value": "{\"OT\":\"Numbers 21-23\",\"NT\":\"Mark 7:14-37\"}",
+        "expiration_ttl": 31557600
+    }
+]

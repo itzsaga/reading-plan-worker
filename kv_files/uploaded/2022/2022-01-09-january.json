@@ -1,0 +1,157 @@
+[
+    {
+        "key": "2022-01-01",
+        "value": "{\"OT\":\"Genesis 1-2\",\"NT\":\"Matthew 1\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-02",
+        "value": "{\"OT\":\"Genesis 3-5\",\"NT\":\"Matthew 2\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-03",
+        "value": "{\"OT\":\"Genesis 6-8\",\"NT\":\"Matthew 3\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-04",
+        "value": "{\"OT\":\"Genesis 9-11\",\"NT\":\"Matthew 4\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-05",
+        "value": "{\"OT\":\"Genesis 12-14\",\"NT\":\"Matthew 5:1-26\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-06",
+        "value": "{\"OT\":\"Genesis 15-17\",\"NT\":\"Matthew 5:27-48\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-07",
+        "value": "{\"OT\":\"Genesis 18-19\",\"NT\":\"Matthew 6\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-08",
+        "value": "{\"OT\":\"Genesis 20-22\",\"NT\":\"Matthew 7\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-09",
+        "value": "{\"OT\":\"Genesis 23-24\",\"NT\":\"Matthew 8\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-10",
+        "value": "{\"OT\":\"Genesis 25-26\",\"NT\":\"Matthew 9:1-17\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-11",
+        "value": "{\"OT\":\"Genesis 27-28\",\"NT\":\"Matthew 9:18-38\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-12",
+        "value": "{\"OT\":\"Genesis 29-30\",\"NT\":\"Matthew 10:1-23\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-13",
+        "value": "{\"OT\":\"Genesis 31-32\",\"NT\":\"Matthew 10:24-42\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-14",
+        "value": "{\"OT\":\"Genesis 33-35\",\"NT\":\"Matthew 11\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-15",
+        "value": "{\"OT\":\"Genesis 36-37\",\"NT\":\"Matthew 12:1-21\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-16",
+        "value": "{\"OT\":\"Genesis 38-40\",\"NT\":\"Matthew 12:22-50\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-17",
+        "value": "{\"OT\":\"Genesis 41\",\"NT\":\"Matthew 13:1-32\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-18",
+        "value": "{\"OT\":\"Genesis 42-43\",\"NT\":\"Matthew 13:33-58\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-19",
+        "value": "{\"OT\":\"Genesis 44-45\",\"NT\":\"Matthew 14:1-21\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-20",
+        "value": "{\"OT\":\"Genesis 46-48\",\"NT\":\"Matthew 14:22-36\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-21",
+        "value": "{\"OT\":\"Genesis 49-50\",\"NT\":\"Matthew 15:1-20\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-22",
+        "value": "{\"OT\":\"Exodus 1-3\",\"NT\":\"Matthew 15:21-39\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-23",
+        "value": "{\"OT\":\"Exodus 4-6\",\"NT\":\"Matthew 16\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-24",
+        "value": "{\"OT\":\"Exodus 7-8\",\"NT\":\"Matthew 17\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-25",
+        "value": "{\"OT\":\"Exodus 9-10\",\"NT\":\"Matthew 18:1-20\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-26",
+        "value": "{\"OT\":\"Exodus 11-12\",\"NT\":\"Matthew 18:21-35\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-27",
+        "value": "{\"OT\":\"Exodus 13-15\",\"NT\":\"Matthew 19:1-15\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-28",
+        "value": "{\"OT\":\"Exodus 16-18\",\"NT\":\"Matthew 19:16-30\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-29",
+        "value": "{\"OT\":\"Exodus 19-21\",\"NT\":\"Matthew 20:1-16\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-30",
+        "value": "{\"OT\":\"Exodus 22-24\",\"NT\":\"Matthew 20:17-34\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-01-31",
+        "value": "{\"OT\":\"Exodus 25-26\",\"NT\":\"Matthew 21:1-22\"}",
+        "expiration_ttl": 31557600
+    }
+]

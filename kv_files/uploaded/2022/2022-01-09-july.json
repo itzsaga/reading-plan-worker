@@ -1,0 +1,157 @@
+[
+    {
+        "key": "2022-07-01",
+        "value": "{\"OT\":\"Job 21-22\",\"NT\":\"Acts 10:1-23\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-02",
+        "value": "{\"OT\":\"Job 23-25\",\"NT\":\"Acts 10:24-48\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-03",
+        "value": "{\"OT\":\"Job 26-28\",\"NT\":\"Acts 11\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-04",
+        "value": "{\"OT\":\"Job 29-30\",\"NT\":\"Acts 12\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-05",
+        "value": "{\"OT\":\"Job 31-32\",\"NT\":\"Acts 13:1-23\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-06",
+        "value": "{\"OT\":\"Job 33-34\",\"NT\":\"Acts 13:24-52\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-07",
+        "value": "{\"OT\":\"Job 35-37\",\"NT\":\"Acts 14\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-08",
+        "value": "{\"OT\":\"Job 38-39\",\"NT\":\"Acts 15:1-21\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-09",
+        "value": "{\"OT\":\"Job 40-42\",\"NT\":\"Acts 15:22-41\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-10",
+        "value": "{\"OT\":\"Psalm 1-3\",\"NT\":\"Acts 16:1-15\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-11",
+        "value": "{\"OT\":\"Psalm 4-6\",\"NT\":\"Acts 16:16-40\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-12",
+        "value": "{\"OT\":\"Psalm 7-9\",\"NT\":\"Acts 17:1-15\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-13",
+        "value": "{\"OT\":\"Psalm 10-12\",\"NT\":\"Acts 17:16-34\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-14",
+        "value": "{\"OT\":\"Psalm 13-16\",\"NT\":\"Acts 18\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-15",
+        "value": "{\"OT\":\"Psalm 17-18\",\"NT\":\"Acts 19:1-20\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-16",
+        "value": "{\"OT\":\"Psalm 19-21\",\"NT\":\"Acts 19:21-41\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-17",
+        "value": "{\"OT\":\"Psalm 22-24\",\"NT\":\"Acts 20:1-16\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-18",
+        "value": "{\"OT\":\"Psalm 25-27\",\"NT\":\"Acts 20:17-38\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-19",
+        "value": "{\"OT\":\"Psalm 28-30\",\"NT\":\"Acts 21:1-14\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-20",
+        "value": "{\"OT\":\"Psalm 31-33\",\"NT\":\"Acts 21:15-40\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-21",
+        "value": "{\"OT\":\"Psalm 34-35\",\"NT\":\"Acts 22\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-22",
+        "value": "{\"OT\":\"Psalm 36-37\",\"NT\":\"Acts 23:1-11\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-23",
+        "value": "{\"OT\":\"Psalm 38-40\",\"NT\":\"Acts 23:12-35\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-24",
+        "value": "{\"OT\":\"Psalm 41-43\",\"NT\":\"Acts 24\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-25",
+        "value": "{\"OT\":\"Psalm 44-46\",\"NT\":\"Acts 25\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-26",
+        "value": "{\"OT\":\"Psalm 47-49\",\"NT\":\"Acts 26\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-27",
+        "value": "{\"OT\":\"Psalm 50-52\",\"NT\":\"Acts 27:1-25\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-28",
+        "value": "{\"OT\":\"Psalm 53-55\",\"NT\":\"Acts 27:26-44\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-29",
+        "value": "{\"OT\":\"Psalm 56-58\",\"NT\":\"Acts 28:1-15\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-30",
+        "value": "{\"OT\":\"Psalm 59-61\",\"NT\":\"Acts 28:16-31\"}",
+        "expiration_ttl": 31557600
+    },
+    {
+        "key": "2022-07-31",
+        "value": "{\"OT\":\"Psalm 62-64\",\"NT\":\"Romans 1\"}",
+        "expiration_ttl": 31557600
+    }
+]
