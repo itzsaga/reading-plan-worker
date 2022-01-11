@@ -2,6 +2,7 @@ name = "axis-reading-plan"
 type = "webpack"
 account_id = "1ae24f064d5a7bfb3070959cf0181225"
 workers_dev = true
+compatibility_date = "2022-01-11"
 route = ""
 zone_id = ""
 webpack_config = "webpack.config.js"
