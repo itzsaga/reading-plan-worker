@@ -110,7 +110,7 @@ const generateHTML = ({
         <div style='text-align:center'>
           <p>Lord, open my eyes that I might <strong>see</strong>,<br/>
           open my ears that I might <strong>hear</strong>,<br/>
-          open my might that I might <strong>know</strong>,<br/>
+          open my mind that I might <strong>know</strong>,<br/>
           and open my heart that I might <strong>experience</strong><br/>
           You and be made aware of all that I need to know.<br/>
           I am not enough. I need you to guide me.</p>
