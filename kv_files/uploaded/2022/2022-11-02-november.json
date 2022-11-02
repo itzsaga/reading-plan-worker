@@ -1,0 +1,152 @@
+[
+  {
+    "key": "2022-11-01",
+    "value": "{\"OT\":\"Jeremiah 31-32\",\"NT\":\"Titus 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-02",
+    "value": "{\"OT\":\"Jeremiah 33-35\",\"NT\":\"Titus 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-03",
+    "value": "{\"OT\":\"Jeremiah 36-37\",\"NT\":\"Philemon 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-04",
+    "value": "{\"OT\":\"Jeremiah 38-39\",\"NT\":\"Hebrews 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-05",
+    "value": "{\"OT\":\"Jeremiah 40-42\",\"NT\":\"Hebrews 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-06",
+    "value": "{\"OT\":\"Jeremiah 43-45\",\"NT\":\"Hebrews 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-07",
+    "value": "{\"OT\":\"Jeremiah 46-48\",\"NT\":\"Hebrews 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-08",
+    "value": "{\"OT\":\"Jeremiah 49-50\",\"NT\":\"Hebrews 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-09",
+    "value": "{\"OT\":\"Jeremiah 51-52\",\"NT\":\"Hebrews 6\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-10",
+    "value": "{\"OT\":\"Lamentations 1-2\",\"NT\":\"Hebrews 7\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-11",
+    "value": "{\"OT\":\"Lamentations 3-5\",\"NT\":\"Hebrews 8\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-12",
+    "value": "{\"OT\":\"Ezekiel 1-3\",\"NT\":\"Hebrews 9\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-13",
+    "value": "{\"OT\":\"Ezekiel 4-6\",\"NT\":\"Hebrews 10:1-23\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-14",
+    "value": "{\"OT\":\"Ezekiel 7-9\",\"NT\":\"Hebrews 10:24-39\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-15",
+    "value": "{\"OT\":\"Ezekiel 10-12\",\"NT\":\"Hebrews 11:1-19\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-16",
+    "value": "{\"OT\":\"Ezekiel 13-15\",\"NT\":\"Hebrews 11:20-40\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-17",
+    "value": "{\"OT\":\"Ezekiel 16\",\"NT\":\"Hebrews 12\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-18",
+    "value": "{\"OT\":\"Ezekiel 17-19\",\"NT\":\"Hebrews 13\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-19",
+    "value": "{\"OT\":\"Ezekiel 20-21\",\"NT\":\"James 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-20",
+    "value": "{\"OT\":\"Ezekiel 22-23\",\"NT\":\"James 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-21",
+    "value": "{\"OT\":\"Ezekiel 24-26\",\"NT\":\"James 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-22",
+    "value": "{\"OT\":\"Ezekiel 27-28\",\"NT\":\"James 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-23",
+    "value": "{\"OT\":\"Ezekiel 29-31\",\"NT\":\"James 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-24",
+    "value": "{\"OT\":\"Ezekiel 32-33\",\"NT\":\"1 Peter 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-25",
+    "value": "{\"OT\":\"Ezekiel 34-35\",\"NT\":\"1 Peter 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-26",
+    "value": "{\"OT\":\"Ezekiel 36-37\",\"NT\":\"1 Peter 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-27",
+    "value": "{\"OT\":\"Ezekiel 38-39\",\"NT\":\"1 Peter 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-28",
+    "value": "{\"OT\":\"Ezekiel 40\",\"NT\":\"1 Peter 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-29",
+    "value": "{\"OT\":\"Ezekiel 41-42\",\"NT\":\"2 Peter 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-11-30",
+    "value": "{\"OT\":\"Ezekiel 43-44\",\"NT\":\"2 Peter 2\"}",
+    "expiration_ttl": 31557600
+  }
+]
