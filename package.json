@@ -15,7 +15,7 @@
   "license": "MIT OR Apache-2.0",
   "devDependencies": {
     "@cloudflare/workers-types": "3.18.0",
-    "@types/chai": "4.3.3",
+    "@types/chai": "4.3.4",
     "@types/mocha": "10.0.0",
     "chai": "4.3.7",
     "mocha": "10.1.0",
