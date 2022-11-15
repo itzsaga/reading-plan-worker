@@ -6,19 +6,21 @@ interface ReadingList {
   NT: string
 }
 
+const responseHeaders = {
+  headers: { 'content-type': 'text/html;charset=UTF-8' },
+}
+
 export async function handleRequest(event: FetchEvent): Promise<Response> {
-  const urlParts = event.request.url.split('/')
-  if (urlParts[urlParts.length - 1] === 'copyright') {
-    return new Response(copyright(), {
-      headers: { 'content-type': 'text/html;charset=UTF-8' },
-    })
+  const { pathname, searchParams } = new URL(event.request.url);
+
+  if (pathname === '/copyright') {
+    return new Response(copyright(), { ...responseHeaders })
   }
 
   const centralTimeDate = new Date().toLocaleString('en-US', {
     timeZone: 'America/Chicago',
   })
   const dateObj = new Date(centralTimeDate)
-  const { searchParams } = new URL(event.request.url)
   const date = searchParams.get('date') || dateObj.toISOString().split('T')[0]
 
   const kvValue: ReadingList | null = await READING_PLAN_KV.get(date, 'json')
@@ -32,9 +34,7 @@ export async function handleRequest(event: FetchEvent): Promise<Response> {
         secondPassage: passages[1],
         date,
       }),
-      {
-        headers: { 'content-type': 'text/html;charset=UTF-8' },
-      },
+      { ...responseHeaders },
     )
   }
 
