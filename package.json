@@ -1,5 +1,5 @@
 {
-  "name": "pname",
+  "name": "reading-plan-worker",
   "version": "1.0.0",
   "description": "Cloudflare worker TypeScript template",
   "main": "index.js",
