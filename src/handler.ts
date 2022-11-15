@@ -7,8 +7,15 @@ interface ReadingList {
 }
 
 export async function handleRequest(event: FetchEvent): Promise<Response> {
-  const centralTimeDate = new Date().toLocaleString("en-US", {
-    timeZone: "America/Chicago"
+  const urlParts = event.request.url.split('/')
+  if (urlParts[urlParts.length - 1] === 'copyright') {
+    return new Response(copyright(), {
+      headers: { 'content-type': 'text/html;charset=UTF-8' },
+    })
+  }
+
+  const centralTimeDate = new Date().toLocaleString('en-US', {
+    timeZone: 'America/Chicago',
   })
   const dateObj = new Date(centralTimeDate)
   const { searchParams } = new URL(event.request.url)
@@ -32,6 +39,36 @@ export async function handleRequest(event: FetchEvent): Promise<Response> {
   }
 
   return new Response('Date not found in list', { status: 404 })
+}
+
+const copyright = () => {
+  return `
+    <!DOCTYPE html>
+    <html lang='en'>
+    <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Copyright</title>
+      <style>
+        body {
+          font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+          margin: 30px auto;
+          max-width: 750px;
+          padding: 0 30px;
+        }
+      </style>
+    </head>
+    <body>
+      <h1 style='text-align:center;'>Copyright</h1>
+      <div style='text-align:center'>
+        <p>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), copyright © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. The ESV may not be translated into any other language.</p>
+        <p>Users may not copy or download more than 500 verses of the ESV Bible or more than one half of any book of the ESV Bible.</p>
+      </div>
+      </body>
+    </html>
+  `
 }
 
 const getPassages = async (passages: ReadingList, event: FetchEvent) => {
@@ -121,6 +158,9 @@ const generateHTML = ({
         </div>
         ${firstPassage}
         ${secondPassage}
+        <div style='text-align:center'>
+          <a href='/copyright'>Copyright</a>
+        </div>
       </body>
     </html>
   `
