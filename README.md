@@ -11,9 +11,3 @@ While attempting to keep up with the daily reading I frequently found myself wit
 - Defaults to reading from the KV store todays date values.
 - Accepts a query parameter to load readings from other days e.g. `?date=2021-09-01`.
 - Queries the text from the [ESV API](https://api.esv.org/) and cahces the response to ensure rate limits are note exceeded and response times stay super fast.
-
-## TODO
-
-- Add forward and back buttons to each page for easier navigation if playing catch up or wanting to read ahead.
-- Wire up CICD to automatically bulk upload new files from a `/kv_files/to_upload` directory then move then to `/kv_files/uploaded` on merge to `main` to facilitate anyone writing those files and opening a PR to get them added.
-- Tests.
