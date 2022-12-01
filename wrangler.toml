@@ -7,3 +7,4 @@ compatibility_date = "2022-01-11"
 kv_namespaces = [
 	 { binding = "READING_PLAN_KV", id = "1621a031d1a542b990cfe6113c956ced", preview_id = "1621a031d1a542b990cfe6113c956ced" }
 ]
+send_metrics = false

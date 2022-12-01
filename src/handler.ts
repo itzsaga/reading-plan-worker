@@ -1,5 +1,5 @@
-declare var ESV_API_KEY: string
-declare var READING_PLAN_KV: KVNamespace
+declare let ESV_API_KEY: string
+declare let READING_PLAN_KV: KVNamespace
 
 interface ReadingList {
   OT: string
@@ -79,6 +79,7 @@ const getPassages = async (passages: ReadingList, event: FetchEvent) => {
     getPassageHTML(passage2, event),
   ])
   const jsons = await Promise.all([responses[0].json(), responses[1].json()])
+  // @ts-ignore
   return [jsons[0].passages[0], jsons[1].passages[0]]
 }
 

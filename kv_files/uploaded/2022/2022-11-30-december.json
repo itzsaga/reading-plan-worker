@@ -1,0 +1,157 @@
+[
+  {
+    "key": "2022-12-01",
+    "value": "{\"OT\":\"Ezekiel 45-46\",\"NT\":\"2 Peter 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-02",
+    "value": "{\"OT\":\"Ezekiel 47-48\",\"NT\":\"1 John 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-03",
+    "value": "{\"OT\":\"Daniel 1-2\",\"NT\":\"1 John 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-04",
+    "value": "{\"OT\":\"Daniel 3-4\",\"NT\":\"1 John 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-05",
+    "value": "{\"OT\":\"Daniel 5-6\",\"NT\":\"1 John 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-06",
+    "value": "{\"OT\":\"Daniel 7-8\",\"NT\":\"1 John 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-07",
+    "value": "{\"OT\":\"Daniel 9-10\",\"NT\":\"2 John 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-08",
+    "value": "{\"OT\":\"Daniel 11-12\",\"NT\":\"3 John 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-09",
+    "value": "{\"OT\":\"Hosea 1-4\",\"NT\":\"Jude 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-10",
+    "value": "{\"OT\":\"Hosea 5-8\",\"NT\":\"Revelation 1\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-11",
+    "value": "{\"OT\":\"Hosea 9-11\",\"NT\":\"Revelation 2\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-12",
+    "value": "{\"OT\":\"Hosea 12-14\",\"NT\":\"Revelation 3\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-13",
+    "value": "{\"OT\":\"Joel 1-3\",\"NT\":\"Revelation 4\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-14",
+    "value": "{\"OT\":\"Amos 1-3\",\"NT\":\"Revelation 5\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-15",
+    "value": "{\"OT\":\"Amos 4-6\",\"NT\":\"Revelation 6\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-16",
+    "value": "{\"OT\":\"Amos 7-9\",\"NT\":\"Revelation 7\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-17",
+    "value": "{\"OT\":\"Obadiah 1\",\"NT\":\"Revelation 8\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-18",
+    "value": "{\"OT\":\"Jonah 1-4\",\"NT\":\"Revelation 9\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-19",
+    "value": "{\"OT\":\"Micah 1-3\",\"NT\":\"Revelation 10\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-20",
+    "value": "{\"OT\":\"Micah 4-5\",\"NT\":\"Revelation 11\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-21",
+    "value": "{\"OT\":\"Micah 6-7\",\"NT\":\"Revelation 12\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-22",
+    "value": "{\"OT\":\"Nahum 1-3\",\"NT\":\"Revelation 13\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-23",
+    "value": "{\"OT\":\"Habakkuk 1-3\",\"NT\":\"Revelation 14\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-24",
+    "value": "{\"OT\":\"Zephaniah 1-3\",\"NT\":\"Revelation 15\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-25",
+    "value": "{\"OT\":\"Haggai 1-2\",\"NT\":\"Revelation 16\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-26",
+    "value": "{\"OT\":\"Zechariah 1-3\",\"NT\":\"Revelation 17\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-27",
+    "value": "{\"OT\":\"Zechariah 4-6\",\"NT\":\"Revelation 18\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-28",
+    "value": "{\"OT\":\"Zechariah 7-9\",\"NT\":\"Revelation 19\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-29",
+    "value": "{\"OT\":\"Zechariah 10-12\",\"NT\":\"Revelation 20\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-30",
+    "value": "{\"OT\":\"Zechariah 13-14\",\"NT\":\"Revelation 21\"}",
+    "expiration_ttl": 31557600
+  },
+  {
+    "key": "2022-12-31",
+    "value": "{\"OT\":\"Malachi 1-4\",\"NT\":\"Revelation 22\"}",
+    "expiration_ttl": 31557600
+  }
+]
