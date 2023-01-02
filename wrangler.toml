@@ -1,6 +1,6 @@
 name = "axis-reading-plan"
 main = "./src/index"
-route = "reading.sethaalexander.com/*"
+route = { pattern = "reading.sethaalexander.com", custom_domain = true }
 account_id = "1ae24f064d5a7bfb3070959cf0181225"
 workers_dev = true
 compatibility_date = "2022-01-11"
