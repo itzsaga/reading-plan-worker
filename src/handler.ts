@@ -162,9 +162,6 @@ const generateHTML = ({
         <div style='text-align:center'>
           <a href='/copyright'>Copyright</a>
         </div>
-        <!-- Cloudflare Web Analytics -->
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9328ff0f9e434149bbe9cf617b9f0aee", "spa": false}'></script>
-        <!-- End Cloudflare Web Analytics -->
       </body>
     </html>
   `
