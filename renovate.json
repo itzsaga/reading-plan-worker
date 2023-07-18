@@ -6,7 +6,8 @@
   "packageRules": [
     {
       "matchDatasources": ["npm"],
-      "stabilityDays": 3
+      "minimumReleaseAge": "3 days",
+      "internalChecksFilter": "strict"
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
