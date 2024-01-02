@@ -4,3 +4,4 @@ transpiled
 worker
 .DS_Store
 .idea/**
+.wrangler

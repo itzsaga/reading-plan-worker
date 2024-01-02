@@ -11,13 +11,13 @@ const responseHeaders = {
 }
 
 export async function handleRequest(event: FetchEvent): Promise<Response> {
-  const { pathname, searchParams } = new URL(event.request.url);
+  const { searchParams } = new URL(event.request.url);
 
   const centralTimeDate = new Date().toLocaleString('en-US', {
     timeZone: 'America/Chicago',
   })
   const dateObj = new Date(centralTimeDate)
-  const date = searchParams.get('date') || dateObj.toISOString().split('T')[0]
+  const date = searchParams.get('date') ?? dateObj.toISOString().split('T')[0]
 
   const kvValue: ReadingList | null = await READING_PLAN_KV.get(date, 'json')
 
@@ -45,13 +45,12 @@ const getPassages = async (passages: ReadingList, event: FetchEvent) => {
     getPassageHTML(passage2, event),
   ])
   const jsons = await Promise.all([responses[0].json(), responses[1].json()])
-  // @ts-ignore
+  // @ts-expect-error untyped json response
   return [jsons[0].passages[0], jsons[1].passages[0]]
 }
 
 const getPassageHTML = async (passage: string, event: FetchEvent) => {
-  const request = event.request
-  const URI = `https://api.esv.org/v3/passage/html/?q=${passage}&include-audio-link=false&include-short-copyright=false`
+  const URI = `https://api.esv.org/v3/passage/html/?q=${passage}&include-audio-link=false&include-short-copyright=false&include-footnotes=false`
   const cache = caches.default
   let response = await cache.match(URI)
 
@@ -113,8 +112,7 @@ const generateHTML = ({
           <p>Lord, open my eyes that I might <strong>see</strong>,<br/>
           open my ears that I might <strong>hear</strong>,<br/>
           open my mind that I might <strong>know</strong>,<br/>
-          and open my heart that I might <strong>experience</strong><br/>
-          You and be made aware of all that I need to know.<br/>
+          and open my heart that I might <strong>experience</strong> You and be made aware of all that I need to know.<br/>
           I am not enough. I need you to guide me.</p>
           Help me.<br/>
           Speak to me.<br/>
