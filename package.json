@@ -31,7 +31,7 @@
     "miniflare": "^3.0.0",
     "prettier": "^3.0.0",
     "ts-jest": "^29.0.0",
-    "typescript": "5.4.4",
+    "typescript": "5.4.5",
     "wrangler": "^3.22.1"
   }
 }
