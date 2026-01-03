@@ -170,6 +170,16 @@ const generateHTML = ({
       </head>
       <body>
         <h1 style='text-align:center;'>Readings for ${dateString}</h1>
+        <div class="nav-row">
+          <a href="?date=${previousDate}" class="nav-link">
+            <span class="nav-arrow">←</span>
+            <span class="nav-text">Previous day</span>
+          </a>
+          <a href="?date=${nextDate}" class="nav-link">
+            <span class="nav-arrow">→</span>
+            <span class="nav-text">Next day</span>
+          </a>
+        </div>
         <div style='text-align:center'>
           <p>Lord, open my eyes that I might <strong>see</strong>,<br/>
           open my ears that I might <strong>hear</strong>,<br/>
@@ -180,16 +190,6 @@ const generateHTML = ({
           Speak to me.<br/>
           Be near me.<br/>
           Amen.
-        </div>
-        <div class="nav-row">
-          <a href="?date=${previousDate}" class="nav-link">
-            <span class="nav-arrow">←</span>
-            <span class="nav-text">Previous day</span>
-          </a>
-          <a href="?date=${nextDate}" class="nav-link">
-            <span class="nav-arrow">→</span>
-            <span class="nav-text">Next day</span>
-          </a>
         </div>
         ${firstPassage}
         ${secondPassage}
