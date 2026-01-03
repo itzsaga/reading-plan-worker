@@ -148,14 +148,23 @@ const generateHTML = ({
             justify-content: space-between;
             margin: 20px 0;
           }
-          .nav-arrow {
-            font-size: 2rem;
+          .nav-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-decoration: none;
             color: #333;
             padding: 10px;
           }
-          .nav-arrow:hover {
+          .nav-link:hover {
             color: #000;
+          }
+          .nav-arrow {
+            font-size: 2rem;
+          }
+          .nav-text {
+            font-size: 0.85rem;
+            margin-top: 4px;
           }
         </style>
       </head>
@@ -173,14 +182,26 @@ const generateHTML = ({
           Amen.
         </div>
         <div class="nav-row">
-          <a href="?date=${previousDate}" class="nav-arrow">←</a>
-          <a href="?date=${nextDate}" class="nav-arrow">→</a>
+          <a href="?date=${previousDate}" class="nav-link">
+            <span class="nav-arrow">←</span>
+            <span class="nav-text">Previous day</span>
+          </a>
+          <a href="?date=${nextDate}" class="nav-link">
+            <span class="nav-arrow">→</span>
+            <span class="nav-text">Next day</span>
+          </a>
         </div>
         ${firstPassage}
         ${secondPassage}
         <div class="nav-row">
-          <a href="?date=${previousDate}" class="nav-arrow">←</a>
-          <a href="?date=${nextDate}" class="nav-arrow">→</a>
+          <a href="?date=${previousDate}" class="nav-link">
+            <span class="nav-arrow">←</span>
+            <span class="nav-text">Previous day</span>
+          </a>
+          <a href="?date=${nextDate}" class="nav-link">
+            <span class="nav-arrow">→</span>
+            <span class="nav-text">Next day</span>
+          </a>
         </div>
         <div style='text-align:center'>
           <p>Copyright</p>
