@@ -1,17 +1,15 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchDatasources": ["npm"],
-      "minimumReleaseAge": "3 days",
-      "internalChecksFilter": "strict"
-    },
-    {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    }
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:base"],
+	"packageRules": [
+		{
+			"matchDatasources": ["npm"],
+			"minimumReleaseAge": "3 days",
+			"internalChecksFilter": "strict"
+		},
+		{
+			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+			"automerge": true
+		}
+	]
 }

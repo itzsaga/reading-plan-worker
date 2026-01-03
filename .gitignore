@@ -5,3 +5,4 @@ worker
 .DS_Store
 .idea/**
 .wrangler
+.env
