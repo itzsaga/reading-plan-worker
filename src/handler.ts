@@ -3,7 +3,7 @@ export interface Env {
 	READING_PLAN_KV: KVNamespace
 }
 
-interface ReadingList {
+export interface ReadingList {
 	OT: string
 	NT: string
 }
@@ -12,7 +12,7 @@ const responseHeaders = {
 	headers: { 'content-type': 'text/html;charset=UTF-8' },
 }
 
-const getOffsetDate = (mmdd: string, offset: number): string => {
+export const getOffsetDate = (mmdd: string, offset: number): string => {
 	const [month, day] = mmdd.split('-').map(Number)
 	// Use a non-leap year for consistent behavior
 	const date = new Date(Date.UTC(2023, month - 1, day + offset))
@@ -21,9 +21,9 @@ const getOffsetDate = (mmdd: string, offset: number): string => {
 	return `${m}-${d}`
 }
 
-const getPreviousDate = (mmdd: string): string => getOffsetDate(mmdd, -1)
+export const getPreviousDate = (mmdd: string): string => getOffsetDate(mmdd, -1)
 
-const getNextDate = (mmdd: string): string => getOffsetDate(mmdd, 1)
+export const getNextDate = (mmdd: string): string => getOffsetDate(mmdd, 1)
 
 export async function handleRequest(
 	request: Request,
@@ -63,7 +63,7 @@ export async function handleRequest(
 	return new Response('Date not found in list', { status: 404 })
 }
 
-const getPassages = async (
+export const getPassages = async (
 	passages: ReadingList,
 	env: Env,
 	ctx: ExecutionContext,
@@ -104,7 +104,7 @@ const getPassageHTML = async (
 	return response
 }
 
-const generateHTML = ({
+export const generateHTML = ({
 	firstPassage,
 	secondPassage,
 	date,

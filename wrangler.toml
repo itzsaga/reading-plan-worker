@@ -3,7 +3,7 @@ main = "./src/index"
 route = { pattern = "reading.sethaalexander.com", custom_domain = true }
 account_id = "1ae24f064d5a7bfb3070959cf0181225"
 workers_dev = true
-compatibility_date = "2022-01-11"
+compatibility_date = "2024-01-01"
 kv_namespaces = [
 	 { binding = "READING_PLAN_KV", id = "1621a031d1a542b990cfe6113c956ced", preview_id = "1621a031d1a542b990cfe6113c956ced" }
 ]

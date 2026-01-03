@@ -6,20 +6,24 @@
 	"scripts": {
 		"dev": "npx wrangler dev",
 		"publish": "npx wrangler publish",
-		"format": "prettier --write '*.{json,js}' 'src/**/*.{js,ts}'",
-		"lint": "eslint --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}'"
+		"format": "prettier --write '*.{json,js,ts}' 'src/**/*.{js,ts}' 'test/**/*.ts'",
+		"lint": "eslint --max-warnings=0 src test && prettier --check '*.{json,js,ts}' 'src/**/*.{js,ts}' 'test/**/*.ts'",
+		"test": "vitest run",
+		"test:watch": "vitest"
 	},
 	"author": "Seth Alexander setha@hey.com",
 	"license": "MIT",
 	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.11.1",
 		"@cloudflare/workers-types": "4.20251231.0",
 		"@eslint/js": "9.39.2",
 		"eslint": "9.39.2",
 		"eslint-config-prettier": "10.1.8",
-		"typescript-eslint": "8.51.0",
 		"miniflare": "4.20251217.0",
 		"prettier": "3.7.4",
 		"typescript": "5.9.3",
+		"typescript-eslint": "8.51.0",
+		"vitest": "^3.2.4",
 		"wrangler": "4.54.0"
 	}
 }

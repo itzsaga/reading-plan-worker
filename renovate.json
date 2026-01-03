@@ -1,9 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:base",
-		":pinAllExceptPeerDependencies"
-	],
+	"extends": ["config:base", ":pinAllExceptPeerDependencies"],
 	"packageRules": [
 		{
 			"matchDatasources": ["npm"],
