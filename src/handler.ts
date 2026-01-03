@@ -12,18 +12,18 @@ const responseHeaders = {
 	headers: { 'content-type': 'text/html;charset=UTF-8' },
 }
 
-const getOffsetDate = (isoDate: string, offset: number): string => {
-	const [year, month, day] = isoDate.split('-').map(Number)
-	const date = new Date(Date.UTC(year, month - 1, day + offset))
-	const y = date.getUTCFullYear()
+const getOffsetDate = (mmdd: string, offset: number): string => {
+	const [month, day] = mmdd.split('-').map(Number)
+	// Use a non-leap year for consistent behavior
+	const date = new Date(Date.UTC(2023, month - 1, day + offset))
 	const m = String(date.getUTCMonth() + 1).padStart(2, '0')
 	const d = String(date.getUTCDate()).padStart(2, '0')
-	return `${y}-${m}-${d}`
+	return `${m}-${d}`
 }
 
-const getPreviousDate = (isoDate: string): string => getOffsetDate(isoDate, -1)
+const getPreviousDate = (mmdd: string): string => getOffsetDate(mmdd, -1)
 
-const getNextDate = (isoDate: string): string => getOffsetDate(isoDate, 1)
+const getNextDate = (mmdd: string): string => getOffsetDate(mmdd, 1)
 
 export async function handleRequest(
 	request: Request,
@@ -36,10 +36,9 @@ export async function handleRequest(
 		timeZone: 'America/Chicago',
 	})
 	const dateObj = new Date(centralTimeDate)
-	const year = dateObj.getFullYear()
 	const month = String(dateObj.getMonth() + 1).padStart(2, '0')
 	const day = String(dateObj.getDate()).padStart(2, '0')
-	const date = searchParams.get('date') ?? `${year}-${month}-${day}`
+	const date = searchParams.get('date') ?? `${month}-${day}`
 
 	const kvValue: ReadingList | null = await env.READING_PLAN_KV.get(
 		date,
@@ -118,10 +117,11 @@ const generateHTML = ({
 	previousDate: string
 	nextDate: string
 }) => {
-	const today = new Date(date + 'T12:00:00')
+	// date is MM-DD format, use current year for display
+	const currentYear = new Date().getFullYear()
+	const today = new Date(`${currentYear}-${date}T12:00:00`)
 	const dateString = today.toLocaleDateString(undefined, {
 		weekday: 'long',
-		year: 'numeric',
 		month: 'long',
 		day: 'numeric',
 	})
