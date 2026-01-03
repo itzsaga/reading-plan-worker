@@ -143,19 +143,29 @@ const generateHTML = ({
             max-width: 750px;
             padding: 0 30px;
           }
-          .nav-arrow {
-            position: fixed;
-            bottom: 20px;
-            font-size: 2rem;
+          .nav-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+          }
+          .nav-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-decoration: none;
             color: #333;
             padding: 10px;
           }
-          .nav-arrow:hover {
+          .nav-link:hover {
             color: #000;
           }
-          .nav-prev { left: 20px; }
-          .nav-next { right: 20px; }
+          .nav-arrow {
+            font-size: 2rem;
+          }
+          .nav-text {
+            font-size: 0.85rem;
+            margin-top: 4px;
+          }
         </style>
       </head>
       <body>
@@ -173,13 +183,21 @@ const generateHTML = ({
         </div>
         ${firstPassage}
         ${secondPassage}
+        <div class="nav-row">
+          <a href="?date=${previousDate}" class="nav-link">
+            <span class="nav-arrow">←</span>
+            <span class="nav-text">Previous day</span>
+          </a>
+          <a href="?date=${nextDate}" class="nav-link">
+            <span class="nav-arrow">→</span>
+            <span class="nav-text">Next day</span>
+          </a>
+        </div>
         <div style='text-align:center'>
           <p>Copyright</p>
           <p>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), copyright © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. The ESV may not be translated into any other language.</p>
           <p>Users may not copy or download more than 500 verses of the ESV Bible or more than one half of any book of the ESV Bible.</p>
         </div>
-        <a href="?date=${previousDate}" class="nav-arrow nav-prev">←</a>
-        <a href="?date=${nextDate}" class="nav-arrow nav-next">→</a>
       </body>
     </html>
   `
