@@ -1,33 +1,25 @@
 {
-  "name": "reading-plan-worker",
-  "version": "1.0.0",
-  "description": "Cloudflare worker TypeScript template",
-  "scripts": {
-    "dev": "npx wrangler dev",
-    "publish": "npx wrangler publish",
-    "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}' 'test/**/*.{js,ts}'",
-    "lint": "eslint --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}' 'test/**/*.{js,ts}'",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
-  },
-  "author": "Seth Alexander setha@hey.com",
-  "license": "MIT",
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "typescript",
-      "prettier"
-    ]
-  },
-  "devDependencies": {
-    "@cloudflare/workers-types": "4.20251231.0",
-    "@typescript-eslint/eslint-plugin": "^8.0.0",
-    "@typescript-eslint/parser": "^8.0.0",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^10.0.0",
-    "eslint-config-typescript": "^3.0.0",
-    "miniflare": "^4.0.0",
-    "prettier": "^3.0.0",
-    "typescript": "5.9.3",
-    "wrangler": "^4.0.0"
-  }
+	"name": "reading-plan-worker",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Cloudflare worker TypeScript template",
+	"scripts": {
+		"dev": "npx wrangler dev",
+		"publish": "npx wrangler publish",
+		"format": "prettier --write '*.{json,js}' 'src/**/*.{js,ts}'",
+		"lint": "eslint --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}'"
+	},
+	"author": "Seth Alexander setha@hey.com",
+	"license": "MIT",
+	"devDependencies": {
+		"@cloudflare/workers-types": "4.20251230.0",
+		"@eslint/js": "^9.0.0",
+		"eslint": "^9.0.0",
+		"eslint-config-prettier": "^10.0.0",
+		"typescript-eslint": "^8.0.0",
+		"miniflare": "^4.0.0",
+		"prettier": "^3.0.0",
+		"typescript": "5.9.3",
+		"wrangler": "^4.0.0"
+	}
 }
