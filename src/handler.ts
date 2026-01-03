@@ -2,92 +2,114 @@ declare let ESV_API_KEY: string
 declare let READING_PLAN_KV: KVNamespace
 
 interface ReadingList {
-  OT: string
-  NT: string
+	OT: string
+	NT: string
 }
 
 const responseHeaders = {
-  headers: { 'content-type': 'text/html;charset=UTF-8' },
+	headers: { 'content-type': 'text/html;charset=UTF-8' },
 }
 
+const getOffsetDate = (isoDate: string, offset: number): string => {
+	const [year, month, day] = isoDate.split('-').map(Number)
+	const date = new Date(Date.UTC(year, month - 1, day + offset))
+	const y = date.getUTCFullYear()
+	const m = String(date.getUTCMonth() + 1).padStart(2, '0')
+	const d = String(date.getUTCDate()).padStart(2, '0')
+	return `${y}-${m}-${d}`
+}
+
+const getPreviousDate = (isoDate: string): string => getOffsetDate(isoDate, -1)
+
+const getNextDate = (isoDate: string): string => getOffsetDate(isoDate, 1)
+
 export async function handleRequest(event: FetchEvent): Promise<Response> {
-  const { searchParams } = new URL(event.request.url);
+	const { searchParams } = new URL(event.request.url)
 
-  const centralTimeDate = new Date().toLocaleString('en-US', {
-    timeZone: 'America/Chicago',
-  })
-  const dateObj = new Date(centralTimeDate)
-  const date = searchParams.get('date') ?? dateObj.toISOString().split('T')[0]
+	const centralTimeDate = new Date().toLocaleString('en-US', {
+		timeZone: 'America/Chicago',
+	})
+	const dateObj = new Date(centralTimeDate)
+	const year = dateObj.getFullYear()
+	const month = String(dateObj.getMonth() + 1).padStart(2, '0')
+	const day = String(dateObj.getDate()).padStart(2, '0')
+	const date = searchParams.get('date') ?? `${year}-${month}-${day}`
 
-  const kvValue: ReadingList | null = await READING_PLAN_KV.get(date, 'json')
+	const kvValue: ReadingList | null = await READING_PLAN_KV.get(date, 'json')
 
-  if (kvValue) {
-    const passages = await getPassages(kvValue, event)
+	if (kvValue) {
+		const passages = await getPassages(kvValue, event)
 
-    return new Response(
-      generateHTML({
-        firstPassage: passages[0],
-        secondPassage: passages[1],
-        date,
-      }),
-      { ...responseHeaders },
-    )
-  }
+		return new Response(
+			generateHTML({
+				firstPassage: passages[0],
+				secondPassage: passages[1],
+				date,
+				previousDate: getPreviousDate(date),
+				nextDate: getNextDate(date),
+			}),
+			{ ...responseHeaders },
+		)
+	}
 
-  return new Response('Date not found in list', { status: 404 })
+	return new Response('Date not found in list', { status: 404 })
 }
 
 const getPassages = async (passages: ReadingList, event: FetchEvent) => {
-  const passage1 = passages.OT.replace(' ', '+')
-  const passage2 = passages.NT.replace(' ', '+')
-  const responses = await Promise.all([
-    getPassageHTML(passage1, event),
-    getPassageHTML(passage2, event),
-  ])
-  const jsons = await Promise.all([responses[0].json(), responses[1].json()])
-  // @ts-expect-error untyped json response
-  return [jsons[0].passages[0], jsons[1].passages[0]]
+	const passage1 = passages.OT.replace(' ', '+')
+	const passage2 = passages.NT.replace(' ', '+')
+	const responses = await Promise.all([
+		getPassageHTML(passage1, event),
+		getPassageHTML(passage2, event),
+	])
+	const jsons = await Promise.all([responses[0].json(), responses[1].json()])
+	// @ts-expect-error untyped json response
+	return [jsons[0].passages[0], jsons[1].passages[0]]
 }
 
 const getPassageHTML = async (passage: string, event: FetchEvent) => {
-  const URI = `https://api.esv.org/v3/passage/html/?q=${passage}&include-audio-link=false&include-short-copyright=false&include-footnotes=false`
-  const cache = caches.default
-  let response = await cache.match(URI)
+	const URI = `https://api.esv.org/v3/passage/html/?q=${passage}&include-audio-link=false&include-short-copyright=false&include-footnotes=false`
+	const cache = caches.default
+	let response = await cache.match(URI)
 
-  if (!response) {
-    response = await fetch(URI, {
-      headers: {
-        Authorization: `Token ${ESV_API_KEY}`,
-      },
-    })
+	if (!response) {
+		response = await fetch(URI, {
+			headers: {
+				Authorization: `Token ${ESV_API_KEY}`,
+			},
+		})
 
-    response = new Response(response.body, response)
+		response = new Response(response.body, response)
 
-    response.headers.append('Cache-Control', 's-max-age=3600')
+		response.headers.append('Cache-Control', 's-max-age=3600')
 
-    event.waitUntil(cache.put(URI, response.clone()))
-  }
-  return response
+		event.waitUntil(cache.put(URI, response.clone()))
+	}
+	return response
 }
 
 const generateHTML = ({
-  firstPassage,
-  secondPassage,
-  date,
+	firstPassage,
+	secondPassage,
+	date,
+	previousDate,
+	nextDate,
 }: {
-  firstPassage: string
-  secondPassage: string
-  date: string
+	firstPassage: string
+	secondPassage: string
+	date: string
+	previousDate: string
+	nextDate: string
 }) => {
-  const today = new Date(date)
-  const dateString = today.toLocaleDateString(undefined, {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  })
+	const today = new Date(date + 'T12:00:00')
+	const dateString = today.toLocaleDateString(undefined, {
+		weekday: 'long',
+		year: 'numeric',
+		month: 'long',
+		day: 'numeric',
+	})
 
-  return `
+	return `
     <!DOCTYPE html>
     <html lang='en'>
       <head>
@@ -104,6 +126,19 @@ const generateHTML = ({
             max-width: 750px;
             padding: 0 30px;
           }
+          .nav-arrow {
+            position: fixed;
+            bottom: 20px;
+            font-size: 2rem;
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+          }
+          .nav-arrow:hover {
+            color: #000;
+          }
+          .nav-prev { left: 20px; }
+          .nav-next { right: 20px; }
         </style>
       </head>
       <body>
@@ -126,6 +161,8 @@ const generateHTML = ({
           <p>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), copyright © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. The ESV may not be translated into any other language.</p>
           <p>Users may not copy or download more than 500 verses of the ESV Bible or more than one half of any book of the ESV Bible.</p>
         </div>
+        <a href="?date=${previousDate}" class="nav-arrow nav-prev">←</a>
+        <a href="?date=${nextDate}" class="nav-arrow nav-next">→</a>
       </body>
     </html>
   `
