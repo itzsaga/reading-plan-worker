@@ -20,7 +20,7 @@
 		"eslint": "9.39.2",
 		"eslint-config-prettier": "10.1.8",
 		"miniflare": "4.20260116.0",
-		"prettier": "3.8.0",
+		"prettier": "3.8.1",
 		"typescript": "5.9.3",
 		"typescript-eslint": "8.53.1",
 		"vitest": "3.2.4",
