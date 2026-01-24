@@ -19,7 +19,7 @@
 		"@eslint/js": "9.39.2",
 		"eslint": "9.39.2",
 		"eslint-config-prettier": "10.1.8",
-		"miniflare": "4.20260114.0",
+		"miniflare": "4.20260116.0",
 		"prettier": "3.8.0",
 		"typescript": "5.9.3",
 		"typescript-eslint": "8.53.1",
