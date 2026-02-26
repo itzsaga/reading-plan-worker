@@ -14,7 +14,7 @@
 	"author": "Seth Alexander setha@hey.com",
 	"license": "MIT",
 	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "0.12.14",
+		"@cloudflare/vitest-pool-workers": "0.12.16",
 		"@cloudflare/workers-types": "4.20260302.0",
 		"@eslint/js": "10.0.1",
 		"eslint": "10.0.1",
