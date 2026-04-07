@@ -17,7 +17,7 @@
 		"@cloudflare/vitest-pool-workers": "0.12.21",
 		"@cloudflare/workers-types": "4.20260404.1",
 		"@eslint/js": "10.0.1",
-		"eslint": "10.1.0",
+		"eslint": "10.2.0",
 		"eslint-config-prettier": "10.1.8",
 		"miniflare": "4.20260401.0",
 		"prettier": "3.8.1",
