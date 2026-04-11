@@ -22,7 +22,7 @@
 		"miniflare": "4.20260405.0",
 		"prettier": "3.8.1",
 		"typescript": "5.9.3",
-		"typescript-eslint": "8.58.0",
+		"typescript-eslint": "8.58.1",
 		"vitest": "3.2.4",
 		"wrangler": "4.80.0"
 	}
